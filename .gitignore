@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 solved
 
 # Build artifacts (user-space)
@@ -5,12 +6,20 @@ boilerplate/engine
 boilerplate/memory_hog
 boilerplate/cpu_hog
 boilerplate/io_pulse
+=======
+# Compiled binaries
+engine
+cpu_hog
+memory_hog
+io_pulse
+>>>>>>> harshitha/main
 
 # Kernel module build artifacts
 *.ko
 *.o
 *.mod
 *.mod.c
+<<<<<<< HEAD
 Module.symvers
 modules.order
 *.cmd
@@ -32,3 +41,21 @@ logs/
 *.swp
 *~
 .vscode/
+=======
+*.mod.o
+*.order
+*.symvers
+
+# Alpine rootfs (large, not needed in repo)
+alpine-minirootfs-*.tar.gz*
+rootfs-*/
+rootfs-base/
+
+# Log files
+logs/
+*.log
+
+# Backup files
+*_back_up*
+*.bak
+>>>>>>> harshitha/main
